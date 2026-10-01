@@ -105,7 +105,7 @@ git push origin feature/AmazingFeature
 
 <div align="center">⭐ اگر از این پروژه خوشتان آمد، خوشحال می‌شوم با دادن یک ستاره از پروژه حمایت کنی
 
-ساخته شده با ♡
+ساخته شده با 💜🩵💚
 
 
 </div>
