@@ -1,6 +1,7 @@
 🤖 AI-Chatbot
 
-یک رابط چت هوش مصنوعی مدرن و شیک، با الهام از ChatGPT، Gemini و DeepSeek. ساخته شده با React، TypeScript و Tailwind CSS v4.
+یک رابط چت هوش مصنوعی مدرن و شیک، با الهام از ChatGPT، Gemini و DeepSeek.
+ساخته شده با React، TypeScript و Tailwind CSS v4.
 
 ⚠️ وضعیت: در حال حاضر در مرحله طراحی رابط کاربری. اتصال به هوش مصنوعی به‌زودی اضافه می‌شود.
 
@@ -24,17 +25,17 @@
 · ⚡ سرعت بالا با Vite
 · 📱 طراحی کاملاً واکنش‌گرا (Responsive)
 · 🧩 معماری مبتنی بر کامپوننت
-· 🎯 تایپ‌ سیف با TypeScript
+· 🎯 تایپ‌سیف با TypeScript
 · 🎨 استایل‌دهی با Tailwind CSS v4
 
 ---
 
 🛠️ تکنولوژی‌های استفاده‌شده
 
-⚛️ React
-🔷 TypeScript
-🎨 Tailwind CSS v4
-⚡ Vite
+· ⚛️ React — کتابخانه رابط کاربری
+· 🔷 TypeScript — تایپ‌سیفتی
+· 🎨 Tailwind CSS v4 — استایل‌دهی
+· ⚡ Vite — ابزار بیلد
 
 ---
 
@@ -72,15 +73,32 @@ npm run preview  # پیش‌نمایش بیلد پروداکشن
 npm run lint     # بررسی کد با ESLint
 ```
 
---- 
+---
+
+🤝 مشارکت
 
 از مشارکت، گزارش باگ و پیشنهاد ویژگی‌های جدید استقبال می‌کنیم!
 
-1. پروژه رو Fork کن
-2. یه برنچ جدید بساز (git checkout -b feature/AmazingFeature)
-3. تغییراتت رو Commit کن (git commit -m 'Add some AmazingFeature')
-4. Push کن (git push origin feature/AmazingFeature)
-5. یه Pull Request باز کن
+1. پروژه را Fork کنید
+2. یک برنچ جدید بسازید
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. تغییرات را Commit کنید
+   ```bash
+   git commit -m "Add some AmazingFeature"
+   ```
+4. برنچ را Push کنید
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. یک Pull Request باز کنید
+
+---
+
+👤 سازنده
+
+Saba Shirazi
 
 ---
 
@@ -91,12 +109,4 @@ npm run lint     # بررسی کد با ESLint
 ساخته شده با ❤️ و ☕
 
 </div>
-
----
-
-
-👤 Author : Saba Shirazi
-
-
 ```
-
