@@ -2,12 +2,6 @@
 
 یک رابط چت هوش مصنوعی مدرن و شیک، با الهام از ChatGPT، Gemini و DeepSeek.
 
-ساخته‌شده با:
-
-- ⚛️ React
-- 🔷 TypeScript
-- 🎨 Tailwind CSS v4
-- ⚡ Vite
 
 «⚠️ وضعیت پروژه: در حال حاضر پروژه در مرحله طراحی و توسعه رابط کاربری (UI) قرار دارد.
 اتصال به هوش مصنوعی در مراحل بعدی اضافه خواهد شد.»
@@ -39,11 +33,10 @@
 
 🛠️ تکنولوژی‌های استفاده‌شده
 
-تکنولوژی| کاربرد
--⚛️ React| ساخت رابط کاربری
--🔷 TypeScript| توسعه Type-Safe
--🎨 Tailwind CSS v4| استایل‌دهی
--⚡ Vite| ابزار Build و Development
+- ⚛️ React
+- 🔷 TypeScript
+- 🎨 Tailwind CSS v4
+- ⚡ Vite
 
 ---
 
@@ -60,7 +53,8 @@
 
 ابتدا مخزن را Clone کنید:
 
-```git clone https://github.com/your-username/AI-Chatbot.git
+```
+git clone https://github.com/your-username/AI-Chatbot.git
 ```
 سپس وارد پوشه پروژه شوید:
 ```
@@ -78,15 +72,6 @@ npm run dev
 ```
 http://localhost:5173
 ```
----
-
-📜 اسکریپت‌های موجود
-
-دستور| توضیحات
-"npm run dev"| اجرای سرور توسعه
-"npm run build"| ساخت نسخه Production
-"npm run preview"| پیش‌نمایش نسخه Production
-"npm run lint"| بررسی کد با ESLint
 
 ---
 
@@ -97,25 +82,24 @@ http://localhost:5173
 برای مشارکت در پروژه:
 
 1. پروژه را Fork کنید.
-2. یک Branch جدید ایجاد کنید:
 
+2. یک Branch جدید ایجاد کنید:
+```
 git checkout -b feature/AmazingFeature
+```
 
 3. تغییرات خود را Commit کنید:
-
+```
 git commit -m "Add some AmazingFeature"
+```
 
 4. Branch را Push کنید:
-
+```
 git push origin feature/AmazingFeature
+```
 
 5. یک Pull Request ایجاد کنید.
 
----
-
-👤 سازنده
-
-Saba Shirazi
 
 ---
 
@@ -124,3 +108,8 @@ Saba Shirazi
 ساخته شده با ❤️ و ☕
 
 </div>
+
+---
+
+👤 سازنده
+Saba Shirazi
