@@ -1,75 +1,109 @@
-# React + TypeScript + Vite
+🤖 AI-Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
+https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
+https://img.shields.io/badge/Status-In_Development-orange?style=for-the-badge
 
-Currently, two official plugins are available:
+یک رابط چت هوش مصنوعی مدرن و شیک، با الهام از ChatGPT، Gemini و DeepSeek. ساخته شده با React، TypeScript و Tailwind CSS v4.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+⚠️ وضعیت: در حال حاضر در مرحله طراحی رابط کاربری. اتصال به هوش مصنوعی به‌زودی اضافه می‌شود.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📑 فهرست مطالب
 
-## Expanding the ESLint configuration
+· ویژگی‌ها
+· تکنولوژی‌های استفاده‌شده
+· شروع به کار
+· مشارکت
+· سازنده
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+✨ ویژگی‌ها
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+· 🎨 رابط کاربری مدرن و تمیز
+· 💬 حباب‌های چت با تفکیک کاربر و دستیار
+· 🌙 پشتیبانی از حالت تاریک
+· ⚡ سرعت بالا با Vite
+· 📱 طراحی کاملاً واکنش‌گرا (Responsive)
+· 🧩 معماری مبتنی بر کامپوننت
+· 🎯 تایپ‌ سیف با TypeScript
+· 🎨 استایل‌دهی با Tailwind CSS v4
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+🛠️ تکنولوژی‌های استفاده‌شده
+
+⚛️ React
+🔷 TypeScript
+🎨 Tailwind CSS v4
+⚡ Vite
+
+---
+
+🚀 شروع به کار
+
+پیش‌نیازها
+
+· Node.js (نسخه ۱۸ یا بالاتر)
+· npm / yarn / pnpm
+
+نصب
+
+```bash
+# کلون کردن مخزن
+git clone https://github.com/your-username/AI-Chatbot.git
+
+# ورود به پوشه پروژه
+cd AI-Chatbot
+
+# نصب پکیج‌ها
+npm install
+
+# اجرای سرور توسعه
+npm run dev
+```
+
+اپلیکیشن روی آدرس http://localhost:5173 در دسترس خواهد بود.
+
+اسکریپت‌های موجود
+
+```bash
+npm run dev      # اجرای سرور توسعه
+npm run build    # بیلد پروژه برای پروداکشن
+npm run preview  # پیش‌نمایش بیلد پروداکشن
+npm run lint     # بررسی کد با ESLint
+```
+
+--- 
+
+از مشارکت، گزارش باگ و پیشنهاد ویژگی‌های جدید استقبال می‌کنیم!
+
+1. پروژه رو Fork کن
+2. یه برنچ جدید بساز (git checkout -b feature/AmazingFeature)
+3. تغییراتت رو Commit کن (git commit -m 'Add some AmazingFeature')
+4. Push کن (git push origin feature/AmazingFeature)
+5. یه Pull Request باز کن
+
+---
+
+<div align="center">
+
+⭐ اگه از این پروژه خوشت اومد، یه ستاره بده!
+
+ساخته شده با ❤️ و ☕
+
+</div>
+
+---
+
+
+👤 Author : Saba Shirazi
+
 
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
