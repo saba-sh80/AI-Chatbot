@@ -1,12 +1,5 @@
 🤖 AI-Chatbot
 
-https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
-https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
-https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
-https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
-https://img.shields.io/badge/Status-In_Development-orange?style=for-the-badge
-
 یک رابط چت هوش مصنوعی مدرن و شیک، با الهام از ChatGPT، Gemini و DeepSeek. ساخته شده با React، TypeScript و Tailwind CSS v4.
 
 ⚠️ وضعیت: در حال حاضر در مرحله طراحی رابط کاربری. اتصال به هوش مصنوعی به‌زودی اضافه می‌شود.
