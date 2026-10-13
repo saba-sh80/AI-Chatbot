@@ -1,11 +1,11 @@
-import Chatbox from "./components/Chatbox";
+import MainPage from "./components/MainPage";
 import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <div className="h-dvh grid grid-cols-5 grid-rows-1 justify-normal">
+    <div className="h-dvh flex">
       <Sidebar/>
-      <Chatbox />
+      <MainPage />
     </div>
   );
 }
