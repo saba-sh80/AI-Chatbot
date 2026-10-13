@@ -1,75 +1,116 @@
-# React + TypeScript + Vite
+🤖 AI Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+یک رابط چت هوش مصنوعی مدرن و شیک، با الهام از ChatGPT، Gemini و DeepSeek.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+«⚠️ وضعیت پروژه: در حال حاضر پروژه در مرحله طراحی و توسعه رابط کاربری (UI) قرار دارد.
+اتصال به هوش مصنوعی در مراحل بعدی اضافه خواهد شد.»
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📑 فهرست مطالب
 
-## Expanding the ESLint configuration
+- ✨ ویژگی‌ها
+- 🛠️ تکنولوژی‌های استفاده‌شده
+- 🚀 شروع به کار
+- 🤝 مشارکت
+- 👤 سازنده
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+✨ ویژگی‌ها
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- 🎨 رابط کاربری مدرن و تمیز
+- 💬 حباب‌های چت با تفکیک کاربر و دستیار
+- 🌙 پشتیبانی از حالت تاریک
+- ⚡ سرعت بالا با Vite
+- 📱 طراحی کاملاً واکنش‌گرا (Responsive)
+- 🧩 معماری مبتنی بر کامپوننت
+- 🎯 تایپ‌سیف با TypeScript
+- 🎨 استایل‌دهی با Tailwind CSS v4
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
-```
+🛠️ تکنولوژی‌های استفاده‌شده
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+- ⚛️ React
+- 🔷 TypeScript
+- 🎨 Tailwind CSS v4
+- ⚡ Vite
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+🚀 شروع به کار
+
+📋 پیش‌نیازها
+
+قبل از اجرای پروژه، مطمئن شوید موارد زیر روی سیستم شما نصب شده‌اند:
+
+- Node.js نسخه 18 یا بالاتر
+- npm یا yarn یا pnpm
+
+📥 نصب
+
+ابتدا مخزن را Clone کنید:
 
 ```
+git clone https://github.com/your-username/AI-Chatbot.git
+```
+سپس وارد پوشه پروژه شوید:
+```
+cd AI-Chatbot
+```
+وابستگی‌های پروژه را نصب کنید:
+```
+npm install
+```
+پروژه را در حالت Development اجرا کنید:
+```
+npm run dev
+```
+پس از اجرا، اپلیکیشن در آدرس زیر در دسترس خواهد بود:
+```
+http://localhost:5173
+```
+
+---
+
+🤝 مشارکت
+
+از مشارکت، گزارش باگ و پیشنهاد ویژگی‌های جدید استقبال می‌کنیم! ❤️
+
+برای مشارکت در پروژه:
+
+1. پروژه را Fork کنید.
+
+2. یک Branch جدید ایجاد کنید:
+```
+git checkout -b feature/AmazingFeature
+```
+
+3. تغییرات خود را Commit کنید:
+```
+git commit -m "Add some AmazingFeature"
+```
+
+4. Branch را Push کنید:
+```
+git push origin feature/AmazingFeature
+```
+
+5. یک Pull Request ایجاد کنید.
+
+
+---
+
+<div align="center">⭐ اگر از این پروژه خوشتان آمد، خوشحال می‌شوم با دادن از پروژه حمایت کنی
+
+ساخته شده با 💜🩵💚
+
+
+</div>
+
+---
+
+👤 سازنده
+Saba Shirazi
